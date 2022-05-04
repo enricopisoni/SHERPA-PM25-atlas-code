@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1612512326177.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2AFE5D8F",
+    "lastKnownWriteTime" : 1616705372,
+    "last_content_update" : 1616705372649,
+    "path" : "D:/WORK/projects/1_IPPA_2021/103_tryAtlasBartCode_emepV434_camsV42/1_results/code/pDUST-pSALT/get_salt_dust_in_fuas_onlypm25.R",
+    "project_path" : "get_salt_dust_in_fuas_onlypm25.R",
+    "properties" : {
+        "cursorPosition" : "45,55",
+        "scrollLine" : "41"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1612532331867.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3829127025",
+    "id" : "D9D94B93",
+    "lastKnownWriteTime" : 1612791795,
+    "last_content_update" : 1612791795988,
+    "path" : "D:/WORK/projects/1_IPPA_2021/103_tryAtlasBartCode_edgar2015_SRR/1_results/code/reduction_input_files/mainPerGNFRPerPrec.R",
+    "project_path" : "mainPerGNFRPerPrec.R",
+    "properties" : {
+        "cursorPosition" : "13,46",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
