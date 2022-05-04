@@ -3,7 +3,7 @@
 This repository contains the code to produce the results for the PM2.5 Atlas, 2021 version.
 
 Basic steps
-1. 1_results/code/python/atlas_run_em_all.py: it produces all anthropogenic results
+1. 1_results/code/python/atlas_run_em_all.py: it produces all anthropogenic results (please see .doc file with further explainations, in the '1_results' directory)
 2. 1_results/code/pDUST-pSALT/get_salt_dust_in_fuas.R: it produces natural results
 3. Need to merge the 2 files resulting from the previous step ('results150fuas')
 4. Need to copy 'results150fuas' in 2_createFiguresR/results150fuas.xlsx
@@ -26,4 +26,5 @@ gives as output to be attached to the result of the 'atlas_run_em_all.py'
 1. Test the code to produce the current atlas results on 150 cities, at 0.1x0.1 deg
 2. Adapt the code to work already on all required polygons 
 3. Redo step 2 replacing the SRR, using the 0.1x0.05 or 0.02x0.01 SRRs
+
 
