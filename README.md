@@ -22,4 +22,8 @@ Additional notes:
 Use as input the basecase, and a file containing natural PM (salt and dust in PM2.5)...
 gives as output to be attached to the result of the 'atlas_run_em_all.py'
 
+## Suggested steps for the work
+1. Test the code to produce the current atlas results on 150 cities, at 0.1x0.1 deg
+2. Adapt the code to work already on all required polygons 
+3. Redo step 2 replacing the SRR, using the 0.1x0.05 or 0.02x0.01 SRRs
 
