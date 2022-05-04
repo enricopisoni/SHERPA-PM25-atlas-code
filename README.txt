@@ -1,3 +1,7 @@
+20220504
+code and infos at:
+https://github.com/enricopisoni/SHERPA-PM25-atlas-code
+
 20201013
 I redid all the process using the SHERPA CHIMERE SRR, used for 2015 atlas:
 a) 1_results/code/python/atlas_run_em_all.py: produces all anthropogenic results
