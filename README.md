@@ -3,7 +3,8 @@
 This repository contains the code to produce the results for the PM2.5 Atlas, 2021 version.
 
 Basic steps:
-1.
+
+1. Create source allocation results:
   * 0_createReductionAreas: the code here can be used to create netcdf defining the reduction areas (city, commuting zone, country, international). The 'main_create_allAreas.R' code creates netcdf for city and commuting zones, 'main_create_aggAreas.R' for the national and international netcdf masks 
   * 1_results/code/python/atlas_run_em_all.py: it produces all anthropogenic results (please see .doc file with further explainations, in the '1_results' directory)
   * 1_results/code/pDUST-pSALT/get_salt_dust_in_fuas.R: it produces natural results
