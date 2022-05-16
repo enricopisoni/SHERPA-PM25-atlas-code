@@ -7,7 +7,7 @@ Basic steps:
 * Create source allocation results:
   * 0_createReductionAreas: the code here can be used to create netcdf defining the reduction areas (city, commuting zone, country, international). 
     * The 'main_create_allAreas.R' code creates netcdf for city and commuting zones, 
-    * The 'main_create_aggAreas.R' for the national and international netcdf masks 
+    * The 'main_create_aggAreas.R' code creates national and international netcdf masks 
   * 1_results/code/python/atlas_run_em_all.py: it produces all anthropogenic results (please see .doc file with further explainations, in the '1_results' directory)
   * 1_results/code/pDUST-pSALT/get_salt_dust_in_fuas.R: it produces natural results
   * Need to merge the 2 files resulting from the 2 previous steps (i.e. see the created file 'results150fuas.xlsx')
