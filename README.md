@@ -10,9 +10,9 @@ Basic steps:
     * The 'main_create_aggAreas.R' code creates national and international netcdf masks 
   * 1_results/code/python/atlas_run_em_all.py: it produces all anthropogenic results (please see .doc file with further explainations, in the '1_results' directory)
   * 1_results/code/pDUST-pSALT/get_salt_dust_in_fuas.R: it produces natural results
-  * Need to merge the 2 files resulting from the 2 previous steps (i.e. see the created file 'results150fuas.xlsx')
-* Need to copy 'results150fuas' in 2_createFiguresR/results150fuas.xlsx
-* run 2_createFiguresR R code to get graphs (this replaces the previous python code)
+  * Then you need to merge the 2 files resulting from the 2 previous steps (i.e. see the created file 'results150fuas.xlsx')
+* You need to copy 'results150fuas' in 2_createFiguresR/results150fuas.xlsx
+* You run 2_createFiguresR R code to get graphs (this replaces the previous python code)
 
 Additional notes on previous steps:
 * SHERPA_PM25_Atlas/python/atlas_run_em_all.py
