@@ -26,7 +26,7 @@ from module6_fua import module6
 import timeit
 
 # paths to input data
-root = 'D:/WORK/projects/37_ISGlobal/20220504_AtlasCode/FINAL_103_tryAtlasBartCode_emepV434_camsV42/1_results/code/'
+root = 'D:/WORK/projects/37_ISGlobal/20220601_AtlasCode/1_results/code/'
 #city_list_file = root + 'city_list_fua150_orig.txt'
 city_list_file = root + 'city_list_fua150_orig.txt'
 
