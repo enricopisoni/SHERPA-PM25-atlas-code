@@ -1,7 +1,7 @@
 library(tidyverse)
 rm(list=ls())
 
-df1 <- data.frame('POLL'=c('NOx','NMVOC','NH3','PPM','SOx'))
+df1 <- data.frame('POLL'=c('NOx','NMVOC','NH3','PPM25','SOx'))
 df2 <- matrix(rep(0,5*13), nrow=5, ncol=13)
 
 df <- cbind(df1,df2)

@@ -177,7 +177,7 @@ for model_name in model_dict.keys():
                 source_area_dict[source_area_list[i].replace('.nc', '')] = reduc_area_all_path + source_area_list[i]
         
         for source_area in source_area_dict.keys():
-            
+            print(source_area)
             # retrieve source area type (the part after the underscore)
             source_area_type = source_area.split('_')[1]
 

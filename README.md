@@ -1,6 +1,19 @@
+## New branch 'atlas_01_005_deg'
+
+A new branch has been created, to use the new SRR at 0.1x0.05. At the moment the code is configured to work with the usual 150 of the Atlas.
+
+- '0_createReductionAreas': running here the 2 scripts, you can create all the combination of 'masks' (reductions at city, country level...) needed to run the Atlas py code
+- '1_results': here now I included
+    - '20220601_01_005': new files containing SRR, basecase emissions, basecase concentrations
+    - 'cell_surface_cdfs': cell surface
+    - 'fua_area_cdfs': to be updated with the new masks, to be created using the R code at '0_createReductionAreas'
+    - 'pDUST-pSALT': dust and salt fields
+    - 'reduction_input_files': containing all the 'text' reduction files
+    - 'run_configuration': containing all the path to be used by the python code
+    
 ## PM2.5 Atlas code
 
-This repository contains the code to produce the results for the PM2.5 Atlas, 2021 version...
+This repository contains the code to produce the results for the PM2.5 Atlas, 2021 version.
 
 Basic steps:
 

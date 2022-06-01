@@ -249,7 +249,7 @@ def module6(path_emission_cdf, path_area_cdf, target_cell_lat, target_cell_lon, 
     longitudes.units = "degrees_east"
     longitudes[:] = longitude_array
     area = rootgrp.createVariable('AREA', 'f4', ('latitude', 'longitude',))
-    area[:] = DC_target_arrray
+    #area[:] = DC_target_arrray
     rootgrp.close()
 
     # write a result file

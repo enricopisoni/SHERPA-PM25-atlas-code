@@ -5,14 +5,10 @@
 rm(list = ls())
 library(raster)
 
-wd <- "D:/WORK/projects/37_ISGlobal/20220504_AtlasCode/FINAL_103_tryAtlasBartCode_emepV434_camsV42/1_results/code/pDUST-pSALT/"
-setwd(wd)
-
-chimere.natural.pm.path <- "D:/WORK/projects/37_ISGlobal/20220504_AtlasCode/FINAL_103_tryAtlasBartCode_emepV434_camsV42/1_results/code/pDUST-pSALT/"
-city.file <- "D:/WORK/projects/37_ISGlobal/20220504_AtlasCode/FINAL_103_tryAtlasBartCode_emepV434_camsV42/1_results/code/city_list_fua150_orig.txt"
+city.file <- "../city_list_fua150_orig.txt"
 city.df <- read.table(city.file, header = TRUE, sep = ';', quote = "")
 # path to basecase concentrations
-chimere.basecase.conc.path <- "D:/WORK/projects/37_ISGlobal/20220504_AtlasCode/FINAL_103_tryAtlasBartCode_emepV434_camsV42/1_results/code/20210325_SRR/2_base_concentrations/"
+chimere.basecase.conc.path <- "../20220601_01_005/"
 
 pm.type <- 'DUST'
 pm.size <- '25'
@@ -20,19 +16,19 @@ res.df <- data.frame()
 for (pm.size in c('25')) {
   
   # read file with basecase pm concentrations
-  pm.base.file <- paste0(chimere.basecase.conc.path, "BCconc_emepV434_camsV42_SURF_ug_PM", pm.size, "_rh50.nc")
+  pm.base.file <- paste0(chimere.basecase.conc.path, "BCconc_emepV434_camsv42_01005_SURF_ug_PM25_rh50.nc")
   pm.base.raster <- raster(pm.base.file)
   
   for (pm.type in c('SALT', 'DUST')) {
     
     # read the file with natural salt/dust concentrations
-    pm.natural.file <- paste0(chimere.natural.pm.path, 'p', pm.type, '-', pm.size, '_emepV434_camsV42.nc')
+    pm.natural.file <- paste0('./p', pm.type, '-', pm.size, '_emepV434_camsV42_01_005.nc')
     pm.natural.raster <- raster(pm.natural.file)
 
     # loop over all the cities
     # city <- "Sevilla"
     for (city in city.df$cityname) {
-      
+      print(city)
       # data frame with city coordinates
       city.coord <- city.df[city.df$cityname == city, c('lon', 'lat')]
       
@@ -43,7 +39,7 @@ for (pm.size in c('25')) {
       pm.natural<- extract(pm.natural.raster, city.coord, method = 'simple')
       
       # add results to data.frame
-      res.city.df <- data.frame(model = 'sherpa_camsV42',
+      res.city.df <- data.frame(model = 'sherpa_camsV42_01_005',
                                 pollutant = paste0('PM', pm.size),
                                 target = city, 
                                 source = 'Nature',
@@ -61,4 +57,4 @@ for (pm.size in c('25')) {
 }
 
 # write table with results
-write.table(res.df, 'emepV434_camsV42_Salt_Dust_FUA151.txt', sep = ';', row.names = FALSE, quote = FALSE)
+write.table(res.df, 'emepV434_camsV42_Salt_Dust_FUA151_01_005.txt', sep = ';', row.names = FALSE, quote = FALSE)
