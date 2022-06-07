@@ -7,7 +7,7 @@ library(ncdf4)
 library(tidyverse)
 
 #load concentration basecase camsemep - use it as default grid
-grid <- raster('input/sce0.nc')
+grid <- raster('../1_results/code/cell_surface_cdfs/sce0_Area_Grid_km2.nc')
 values(grid) <- 0
 
 #load shape nuts0

@@ -5,9 +5,9 @@ rm(list=ls())
 #load results of the step '1_results'...in inpyt use a final XLSX file containing results from
 # a) 1_results/code/python/atlas_run_em_all.py: produces all anthropogenic results
 # b) 1_results/code/pDUST-pSALT/get_salt_dust_in_fuas.R: produces natural results
-df <- read_excel('results150fuas_composite_FINAL.xlsx', skip=5, 
+df <- read_excel('results150fuas_composite_01005_FINAL.xlsx', skip=5, 
                  col_types = c('text','text','text','text','text','text',
-                               'numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric'))
+                               'numeric','numeric','numeric','numeric','numeric','numeric'))
 
 #get full list of cities
 cities <- unique(df$target)
