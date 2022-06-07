@@ -1,0 +1,3 @@
+source_area;precursor;pollutant;potential;relative_potential;potency;base_conc_ugm3;delta_conc_ugm3;delta_E_ton
+1;NOx;PM25;-0.014385;-0.101924;-0.000003;14.113425;-0.007193;2778.597220
+

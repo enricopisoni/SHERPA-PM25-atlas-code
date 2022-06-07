@@ -1,0 +1,23 @@
+Source apportionment for 150 cities
+commit BD handover version 23 March 2020
+emissions cdf = ../20220601_01_005/BCemis_emepV434_camsV42_01_005.nc
+concentrations cdf = ../20220601_01_005/BCconc_emepV434_camsv42_01005_SURF_ug_PM25_rh50.nc
+model folder = ../20220601_01_005/SR_SURF_ug_PM25_rh50.nc
+model;pollutant;target;source;snap;precursor;potential;relative_potential;potency;target_conc_basecase;delta_conc;DE
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;10;NH3;9.715270e-03;1.695670e-01;2.779393e-04;5.729458e+00;4.857635e-03;1.747732e+01
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;10;NMVOC;-2.944459e-04;-5.139158e-03;-1.230833e-05;5.729458e+00;-1.472229e-04;1.196125e+01
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;10;NOx;2.712917e-04;4.735033e-03;8.006817e-05;5.729458e+00;1.356459e-04;1.694130e+00
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;10;PPM25;1.506322e-02;2.629083e-01;1.056519e-03;5.729458e+00;7.531610e-03;7.128704e+00
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;10;SOx;2.280834e-04;3.980889e-03;2.393116e-04;5.729458e+00;1.140417e-04;4.765406e-01
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;11;NH3;6.973870e-03;1.217195e-01;5.017330e-04;5.729458e+00;3.486935e-03;6.949782e+00
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;11;NMVOC;0.000000e+00;0.000000e+00;nan;5.729458e+00;0.000000e+00;nan
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;11;NOx;0.000000e+00;0.000000e+00;nan;5.729458e+00;0.000000e+00;nan
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;11;PPM25;3.860894e-04;6.738672e-03;1.303382e-03;5.729458e+00;1.930447e-04;1.481106e-01
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;11;SOx;0.000000e+00;0.000000e+00;nan;5.729458e+00;0.000000e+00;nan
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;12;NH3;2.623421e-02;4.578828e-01;4.794726e-04;5.729458e+00;1.311710e-02;2.735736e+01
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;12;NMVOC;-1.465888e-05;-2.558511e-04;-1.304686e-05;5.729458e+00;-7.329440e-06;5.617782e-01
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;12;NOx;0.000000e+00;0.000000e+00;nan;5.729458e+00;0.000000e+00;nan
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;12;PPM25;1.088576e-04;1.899964e-03;9.688046e-04;5.729458e+00;5.442882e-05;5.618142e-02
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;12;SOx;0.000000e+00;0.000000e+00;nan;5.729458e+00;0.000000e+00;nan
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;1;NH3;3.876722e-05;6.766298e-04;2.596617e-04;5.729458e+00;1.938361e-05;7.464950e-02
+sherpa_camsV42_01_005;PM25;Cardiff;Cardiff_City;1;NMVOC;-5.428961e-05;-9.475522e-04;-7.257325e-06;5.729458e+00;-2.714480e-05;3.740332e+00
