@@ -1,3 +1,0 @@
-source_area;precursor;pollutant;potential;relative_potential;potency;base_conc_ugm3;delta_conc_ugm3;delta_E_ton
-1;NH3;PM25;0.364247;2.644467;0.000002;13.773911;0.182123;95268.168810
-

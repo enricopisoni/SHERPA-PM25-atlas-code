@@ -1,2 +1,2 @@
 model_name	ctm	pollutant	emission_cdf	concentration_cdf	source_receptor_cdf	cell_surface_cdf
-sherpa_camsV42_01_005	emepV434_camsV42_01_005	PM25	../20220601_01_005/BCemis_emepV434_camsV42_01_005.nc	../20220601_01_005/BCconc_emepV434_camsv42_01005_SURF_ug_PM25_rh50.nc	../20220601_01_005/SR_SURF_ug_PM25_rh50.nc	../cell_surface_cdfs/emep_cell_surface_01_005.nc
+sherpa_camsV42_01_005	emepV434_camsV42_01_005	PM25	../20220601_01_005/BCemis_emepV434_camsV42_01_005_bugSOxGNFr3ok.nc	../20220601_01_005/BCconc_emepV434_camsv42_01005_SURF_ug_PM25_rh50.nc	../20220601_01_005/SR_SURF_ug_PM25_rh50.nc	../cell_surface_cdfs/emep_cell_surface_01_005.nc
