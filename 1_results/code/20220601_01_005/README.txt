@@ -1,3 +1,2 @@
-20220608
-Note that I replaced the emission file, removing SOx GNFR3 too high values (>100000 Mg).
-These are related to a bug in the emission file, now corrected.
+20220622
+I now use 'Sec_emis' and not 'Emis', to avoid issue of SO2 high emissions in Sicily due to vulcanic ashes.
